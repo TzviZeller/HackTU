@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="HackTU">
+    <meta property="og:url" content="https://HackTU.com" />
+    <meta property="og:type" content="Event" />
+    <!-- <meta property="og:title" content="Dream big. Make it happen."/> -->
+    <meta property="og:description" content="HackTU gives everyone the chance to learn new skills and make friends!"/>
+    <meta property="og:image" content="https://hackumbc.org/img/info.png" />
+    <title> HackTU </title>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        try {
+            if (!window.CloudFlare) {
+                var CloudFlare = [{
+                    verbose: 0,
+                    p: 0,
+                    byc: 0,
+                    owlid: "cf",
+                    bag2: 1,
+                    mirage2: 0,
+                    oracle: 0,
+                    paths: {
+                        cloudflare: "/cdn-cgi/nexp/dok3v=1613a3a185/"
+                    },
+                    atok: "8486ef9ae7d7bb53d4295e1d227e5038",
+                    petok: "4d4b1224eede24f38b4c7109faad092efede31f7-1475725973-1800",
+                    zone: "hackumbc.org",
+                    rocket: "0",
+                    apps: {
+                        "ga_key": {
+                            "ua": "UA-52530075-1",
+                            "ga_bs": "2"
+                        }
+                    }
+                }];
+                ! function(a, b) {
+                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=0489c402f5/cloudflare.min.js", b.parentNode.insertBefore(a, b)
+                }()
+            }
+        } catch (e) {};
+        //]]>
+    </script>
+    <link href="boot.css" rel="stylesheet">
+    <link href="css.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        #mlh-trust-badge {
+            display: block;
+            max-width: 120px;
+            min-width: 60px;
+            position: fixed;
+            right: 50px;
+            top: 0;
+            z-index: 1000000;
+            width: 10%;
+        }
+    </style>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-52530075-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+
+        (function(b) {
+            (function(a) {
+                "__CF" in b && "DJS" in b.__CF ? b.__CF.DJS.push(a) : "addEventListener" in b ? b.addEventListener("load", a, !1) : b.attachEvent("onload", a)
+            })(function() {
+                "FB" in b && "Event" in FB && "subscribe" in FB.Event && (FB.Event.subscribe("edge.create", function(a) {
+                    _gaq.push(["_trackSocial", "facebook", "like", a])
+                }), FB.Event.subscribe("edge.remove", function(a) {
+                    _gaq.push(["_trackSocial", "facebook", "unlike", a])
+                }), FB.Event.subscribe("message.send", function(a) {
+                    _gaq.push(["_trackSocial", "facebook", "send", a])
+                }));
+                "twttr" in b && "events" in twttr && "bind" in twttr.events && twttr.events.bind("tweet", function(a) {
+                    if (a) {
+                        var b;
+                        if (a.target && a.target.nodeName == "IFRAME") a: {
+                            if (a = a.target.src) {
+                                a = a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);
+                                b = 0;
+                                for (var c; c = a[b]; ++b)
+                                    if (c.indexOf("url") === 0) {
+                                        b = unescape(c.split("=")[1]);
+                                        break a
+                                    }
+                            }
+                            b = void 0
+                        }
+                        _gaq.push(["_trackSocial", "twitter", "tweet", b])
+                    }
+                })
+            })
+        })(window);
+        /* ]]> */
+    </script>
+</head>
+
+<body id="page-top" class="index">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="#page-top">HackUMBC</a>
+                <button type="button" style="display:inline:block;position:absolute;" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+</button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#schedule">Schedule</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#faq">
+FAQ
+</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#sponsors">
+Sponsors
+</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="map.html">
+Event Map
+</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <header class="particle-bg">
+        <div class="container">
+            <div class="row">
+                <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white"
+                    target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+                <div class="col-lg-12" style="margin-top: -7%;">
+                    <img class="img-responsive" src="img/logo.svg" width="30%" alt="">
+                    <div class="intro-text">
+                        <span class="name">
+HackUMBC
+</span>
+
+
+                        <span class="skills">
+<b>Dream big. Make it happen.</b> <br>
+October 1st - 2nd |
+<a href="https://goo.gl/KggaaM" style="text-decoration: none">
+1000 Hilltop Circle, Baltimore, MD
+</a>
+</span>
+                        <p>
+                            <h4>
+Thank you all for coming!
+</h4>
+                        </p>
+
+                        <a href="https://gitter.im/hackumbcf16/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="_blank" style="border: 0.2em solid #EFC660; color: #EFC660; font-weight: bold;" class="btn btn-lg btn-outline">
+Chat With Us
+</a>
+                        <a href="http://hackumbcf16.devpost.com/" target="_blank" style="border: 0.2em solid #EFC660; color: #EFC660; font-weight: bold;" class="btn btn-lg btn-outline">
+HackUMBC Devpost
+</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>About</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <hr>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <p>
+                        HackUMBC gives you 24 hours to learn new skills, make friends, create your wildest idea, and share it with the world.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Whether you wish to build a website, dabble with Photoshop, create a robotic arm, or develop a game, it's up to you to decide what to learn!
+                    </p>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>
+Schedule
+</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="text-center">
+Saturday
+</h3>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10:00 AM</td>
+                                    <td>Check-In</td>
+                                    <td>
+                                        <a href="https://goo.gl/fnnxG0" target="_blank">
+                                            <div>Meyerhoff 030</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 AM</td>
+                                    <td>Opening Ceremonies</td>
+                                    <td>
+                                        <a href="https://goo.gl/fnnxG0" target="_blank">
+                                            <div>Meyerhoff 030</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>Hacking Begins and Lunch</td>
+                                    <td>
+                                        <a href="https://goo.gl/4mdiFa" target="_blank">
+ITE
+</a> /
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>
+                                        <b>Tech Talk</b>
+                                        <br> Tips for Software Prototyping
+                                        <br> Achieving a Minimal Viable Product (MVP)
+                                        <br> by ClearEdge
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>01:00 PM</td>
+                                    <td>
+                                        <b>Tech Talk</b>
+                                        <br> Basic Protocol Reverse Engineering
+                                        <br> by Booz Allen Hamilton
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>02:00 PM</td>
+                                    <td>
+                                        <b>Sponsor Talk</b>
+                                        <br> Internships and Jobs
+                                        <br> by Booz Allen Hamilton
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>03:00 PM</td>
+                                    <td>
+                                        <b>Tech Talk</b>
+                                        <br> Awareness
+                                        <br> by NSA
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>04:00 PM</td>
+                                    <td>
+                                        <b>Tech Talk</b>
+                                        <br> Debugger 101
+                                        <br> by Northrop Grumman
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>05:00 PM</td>
+                                    <td>
+                                        <b>Tech Talk</b>
+                                        <br> Cybersolutions
+                                        <br> by Leidos
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+ENG 027
+</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>06:00 PM</td>
+                                    <td>Dinner with Steer-Tech</td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG Atrium / 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>07:00 PM</td>
+                                    <td>
+                                        <b>Workshops</b>
+                                        <br> Intro to Lyft API (iOS)
+                                        <br> by Lyft
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>08:00 PM</td>
+                                    <td>
+                                        <b>Workshops</b>
+                                        <br> Intro to HTML and CSS
+                                        <br> by HackUMBC
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>09:00 PM</td>
+                                    <td>
+                                        <b>Workshops</b>
+                                        <br> Intro to Javascript and JQuery
+                                        <br> by HackUMBC
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>10:00 PM</td>
+                                    <td>
+                                        Tech Trivia
+                                        <br> by HackUMBC
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11:00 PM</td>
+                                    <td>
+                                        Cyber Capture The Flag
+                                        <br> Sponsored by MLH
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>11:30 PM</td>
+                                    <td>
+                                        Super Smash Bros Tournament
+                                        <br> by HackUMBC
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG 027</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="text-center">
+Sunday
+</h3>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Event</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>12:00 AM</td>
+                                    <td>Midnight Snacks</td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG Atrium</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>08:00 AM</td>
+                                    <td>Breakfast</td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG Atrium</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>09:00 AM</td>
+                                    <td>
+                                        Yoga
+                                        <br> hosted by Nisarga Patel
+                                    </td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG Atrium</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>12:00 PM</td>
+                                    <td>Hacking Ends and Lunch</td>
+                                    <td>
+                                        <a href="https://goo.gl/a85UAM" target="_blank">
+                                            <div>ENG Atrium</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>01:00 PM</td>
+                                    <td>Expo Begins</td>
+                                    <td>
+                                        <a href="https://goo.gl/Ivg8L7" target="_blank">
+                                            <div>UC Ballroom</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>03:00 PM</td>
+                                    <td>Final Demos Begin</td>
+                                    <td>
+                                        <a href="https://goo.gl/Ivg8L7" target="_blank">
+                                            <div>UC Ballroom</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>04:00 PM</td>
+                                    <td>Closing Ceremonies</td>
+                                    <td>
+                                        <a href="https://goo.gl/Ivg8L7" target="_blank">
+                                            <div>UC Ballroom</div>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" style="background-color: #58595b; color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>
+Frequently Asked
+</h2>
+                    <h2>
+Questions
+</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <hr>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h3>
+What is a hackathon?
+</h3>
+                    <p>
+                        A hackathon is a tech innovation marathon. This is where your dreams run wild. Solve a real-world problem with technology or build the next Iron Man suit.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+What if I don't have a team or an idea?
+</h3>
+                    <p>
+                        No problem! You can find a team once you arrive. Most hackers arrive without a team. You will often find inspiration for ideas at the hackathon.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h3>
+What if I don't code?
+</h3>
+                    <p>
+                        This is the perfect opportunity to learn something new! There will be workshops geared towards beginners and mentors to help you throughout the event.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+Who can attend?
+</h3>
+                    <p>
+                        All undergraduate, graduate, and high school students are welcome!
+                    </p>
+                </div>
+            </div>
+            <!--<div class="row">
+<div class="col-md-4 col-md-offset-2">
+<h3>
+What can I build?
+</h3>
+<p>
+Anything! Web, mobile, desktop, and hardware projects are
+all welcome. Projects will be judged based on creativity,
+technical difficulty, polish, and usefulness.
+</p>
+</div>
+<div class="col-md-4">
+<h3>
+Will there be hardware?
+</h3>
+<p>
+We have partnered with MLH to provide hardware hacking
+resources to all hackers.
+<a href="https://mlh.io/hardware-lab">
+Check out the full list of hardware.
+</a>
+</p>
+</div>
+</div>-->
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h3>
+		How much does it cost?
+		</h3>
+                    <p>
+                        HackTU is free! Food, beverages, swag, and workspaces will be provided. You just have to travel to the event and we will take care of the rest! :)
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+		What should I bring?
+		</h3>
+                    <p>
+                        Valid photo ID is required. Laptops are highly recommended.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h3>
+		How big should teams be? Can I hack alone?
+		</h3>
+                    <p>
+                        Teams should be at most four people. We highly recommend that you form a team, but solo hackers are allowed.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+		Can I build on past projects?
+		</h3>
+                    <p>
+                        We strongly discourage building off of existing projects you've worked on. However, using third–party APIs and libraries are encouraged, as long as they're accessible by everyone.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2">
+                    <h3>
+		Is there a code of conduct?
+		</h3>
+                    <p>
+                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+		Yes.
+		</a> Be nice to others.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+		I have more questions!
+		</h3>
+                    <p>
+                        You can get in touch with us via email,
+                        <a href="/cdn-cgi/l/email-protection#167e77757d637b747556717b777f7a3875797b296563747c7375622b5f367e77607336773667637365627f797837">
+		email
+		</a>, or
+                        <a href="https://www.facebook.com/hackumbc">
+		Facebook.
+		</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Sponsors</h2>
+                    <hr>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 portfolio-item text-center">
+
+                    <a href="http://www.clearedgeit.com/" title="ClearEdge" class="portfolio-link" target="_blank">
+                        <img src="img/sponsors/clearedge.png" class="img-responsive center-block" style="width: 30%;display:inline;margin-right: 5%;" alt="ClearEdge Logo">
+                    </a>
+
+                    <a href="https://www.boozallen.com/" title="Booz | Allen | Hamilton" class="portfolio-link" target="_blank">
+                        <img src="img/sponsors/booz_allen_hamilton.svg" class="img-responsive center-block" style="width: 30%;display:inline;" alt="Booz | Allen | Hamilton">
+                    </a>
+
+                    <a href="https://www.leidos.com/" title="Leidos" class="portfolio-link" target="_blank">
+                        <img src="img/sponsors/leidos.svg" class="img-responsive center-block" style="width: 30%;display:inline;" alt="Leidos">
+                    </a>
+
+                    <a href="https://www.nsa.gov/" title="NSA" class="portfolio-link" target="_blank">
+                        <img src="img/sponsors/nsa.svg" class="img-responsive center-block" style="width: 30%;display:inline;" alt="NSA">
+                    </a>
+
+                    <a href="http://www.bia-boeing.com/" title="BoeingIA" class="portfolio-link" target="_blank">
+                        <img src="img/sponsors/boeing.png" class="img-responsive center-block" style="width: 30%;display:inline;" alt="BoeingIA">
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 portfolio-item text-center">
+                    <a href="https://www.lyft.com/" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/lyft.svg" class="img-responsive center-block" style="width: 15%;display:inline;margin-right: 5%;" alt="">
+                    </a>
+                    <a href="http://www.northropgrumman.com/Pages/default.aspx" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/northropgrumman.svg" class="img-responsive center-block" style="width: 25%;display:inline;margin-right: 5%" alt="">
+                    </a>
+                    <a href="http://www.mccormick.com/" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/mccormick.png" class="img-responsive center-block" style="width: 15%;display:inline;margin-right: 5%" alt="">
+                    </a>
+                    <a href="#" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/steer.png" class="img-responsive center-block" style="width: 25%;display:inline;" alt="">
+                    </a>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+
+                <div class="col-md-12 portfolio-item text-center">
+                    <a href="https://www3.troweprice.com/usis/corporate/en/home.html" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/trowe.png" class="img-responsive center-block" style="width: 10%;display:inline;margin-right: 5%;" alt="">
+                    </a>
+                    <a href="https://www.namecheap.com/" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/namecheap.svg" class="img-responsive center-block" style="width: 10%;display:inline;margin-right: 5%" alt="">
+                    </a>
+                    <a href="http://www.redbull.com/us/en" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/red_bull.svg" class="img-responsive center-block" style="width: 10%;display:inline;margin-right: 5%;" alt="">
+                    </a>
+                    <a href="http://goavitae.com/" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/avitae.png" class="img-responsive center-block" style="width: 10%;display:inline;margin-right: 5%;" alt="">
+                    </a>
+                    <a href="https://www.soylent.com/" class="portfolio-link" target="_blank">
+
+
+
+
+
+                        <img src="img/sponsors/soylent.svg" class="img-responsive center-block" style="width: 10%;display:inline;" alt="">
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="sponsors">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Partners</h2>
+                    <hr>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 portfolio-item text-center">
+                    <a href="https://mlh.io/" class="portfolio-link">
+                        <img src="img/partners/mlh-logo-grayscale.png" class="img-responsive center-block" alt="" style="width: 30%">
+                    </a>
+                    <br>
+                    <a href="http://entrepreneurship.umbc.edu/" class="portfolio-link" target="_blank">
+                        <img src="img/partners/alexbrown.svg" class="img-responsive center-block" alt="" style="width: 30%; display: inline; margin-right: 5%;">
+                    </a>
+                    <a href="https://www.csee.umbc.edu/" class="portfolio-link" target="_blank">
+                        <img src="img/partners/csee.png" class="img-responsive center-block" alt="" style="width: 10%; display: inline; margin-right: 5%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.facebook.com/hackumbc" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-facebook">
+</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/hackumbc" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/umbchackers" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hackumbcs16.slack.com/" class="btn-social btn-outline">
+                            <i class="fa fa-fw fa-slack"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/freelancer.min.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        (function(d, s, a, i, j, r, l, m, t) {
+            try {
+                l = d.getElementsByTagName('a');
+                t = d.createElement('textarea');
+                for (i = 0; l.length - i; i++) {
+                    try {
+                        a = l[i].href;
+                        s = a.indexOf('/cdn-cgi/l/email-protection');
+                        m = a.length;
+                        if (a && s > -1 && m > 28) {
+                            j = 28 + s;
+                            s = '';
+                            if (j < m) {
+                                r = '0x' + a.substr(j, 2) | 0;
+                                for (j += 2; j < m && a.charAt(j) != 'X'; j += 2) s += '%' + ('0' + ('0x' + a.substr(j, 2) ^ r).toString(16)).slice(-2);
+                                j++;
+                                s = decodeURIComponent(s) + a.substr(j, m - j)
+                            }
+                            t.innerHTML = s.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                            l[i].href = 'mailto:' + t.value
+                        }
+                    } catch (e) {}
+                }
+            } catch (e) {}
+        })(document); /* ]]> */
+    </script>
+</body>
+
+</html>
