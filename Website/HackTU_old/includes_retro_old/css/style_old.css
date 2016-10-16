@@ -1,0 +1,163 @@
+body {
+  background: #37474f;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.box {
+  width: auto;
+  border: 1px black  solid;
+  background-color: #f3f3f3;
+}
+/* Background Image from: https://unsplash.com/new?photo=EcZSMO-TNuc */
+#titleBox {
+  height: 75%;
+  background: url("../../includes/imgs/bg.jpg");
+  background-repeat:no-repeat;
+  background-size: auto auto;
+  background-position: top;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border: 1px solid black;
+}
+
+#experienceBox {
+  height: 550px;
+  background: url("../../includes/imgs/bg.jpg");
+  background-repeat:no-repeat;
+  background-size: auto auto;
+  background-position: center;
+}
+#expContainer {
+  display: flex;
+}
+#educationBox {
+  height: 300px;
+  background: url("../../includes/imgs/bg.jpg");
+  background-repeat:no-repeat;
+  background-size: auto auto;
+  background-position:left;
+}
+
+#contactBox {
+  height: 250px;
+  background: url("../../includes/imgs/bg.jpg");
+  background-repeat:no-repeat;
+  background-size: auto auto;
+  background-position:right;
+}
+ h1 {
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+#titleBox p {
+  text-align: center;
+  font-size: 24px;
+}
+
+#titleBox h1 {
+  margin-top: 6%;
+}
+#titlePoint2 {
+-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+animation-delay: 1s;
+}
+#titlePoint3 {
+-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+animation-delay: 2s;
+}
+
+#titlePoint4 {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+#tobeupdated {
+  -webkit-animation-delay:4s;
+  animation-delay: 4s;
+  font-size: small !important;
+}
+#navBar {
+  width: 100px;
+  float: right;
+  z-index: 100;
+  position: fixed;
+  border: 1px solid black;
+  margin-left: 85%;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #37474f;
+  border-radius: 5px;
+  height: 15%;
+}
+
+#navBar a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+  margin: auto;
+}
+
+#educationContent {
+  text-align: center;
+}
+
+dialog.mccormick{
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+dialog.metabolix{
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+dialog.projects{
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+.mccormick-card-square {
+  width: 33%;
+  height: 320px;
+  margin: auto;
+  padding: auto;
+}
+
+
+
+.mccormick-card-square img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.metabolix-card-square {
+  width: 33%;
+  height: 320px;
+  margin: auto;
+  padding: auto;
+}
+
+.metabolix-card-square img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.projects-card-square {
+  width: 33%;
+  height: 320px;
+  margin: auto;
+  padding: auto;
+}
+
+.projects-card-square img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}

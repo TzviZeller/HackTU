@@ -1,0 +1,79 @@
+/* YOUR CUSTOM STYLES */
+
+#address {
+  color: rgb(105,240,174);
+}
+
+#addressPara {
+  font-size: 1.5rem;
+  font-family: 'Righteous', cursive;
+}
+
+#signupButton {
+  background: linear-gradient(143deg, #ac32e4, #6317fb, #e517fb);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 21s ease infinite;
+  -moz-animation: AnimationName 21s ease infinite;
+  animation: AnimationName 21s ease infinite;
+font-family: 'Bungee Inline', cursive;
+font-size: 3rem;
+color: #68b5ff !important;
+text-shadow: 2px 2px #000;
+}
+
+#signupBorder {
+  border-top: .5em solid #68b5ff;
+  border-bottom:.5em solid #68b5ff;
+  border-radius: 4em;
+}
+
+@-webkit-keyframes signupButtonAnim {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@-moz-keyframes signupButtonAnim {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@keyframes signupButtonAnim {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+
+@font-face {
+  font-family: Lazer84;
+  src:url(../font/Lazer84.ttf);
+}
+
+.logoText {
+  font-family: 'Lazer84', 'Orbitron', sans-serif;
+  color: #FF11A7 !important;
+  text-shadow: 2px 2px #47ffcb;
+  font-size: 5.7rem;
+}
+
+#retroNav a {
+  font-family: 'Lazer84', 'Orbitron', sans-serif;
+  color: #FF11A7 !important;
+  text-shadow: 2px 2px #47ffcb;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#retroNav a:hover {
+  color: #47ffcb !important;
+  text-shadow: 2px 2px #FF11A7;
+}
+
+#retroNav {
+  display: flex;
+  align-items: center;
+}
+
+#retroNav li {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
