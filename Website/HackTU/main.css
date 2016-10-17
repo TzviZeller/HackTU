@@ -19,6 +19,7 @@ header{
   color: #EEEEEE;
   color: rgba(255, 255, 255, .87);
   text-align: center;
+  z-index: 999;
 }
 
 .row{
