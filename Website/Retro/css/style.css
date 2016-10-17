@@ -26,7 +26,29 @@ color: #68b5ff !important;
 text-shadow: 2px 2px #000;
 }
 
+#FAQ div {
+  font-family: 'Righteous', cursive;
+}
+#FAQ h3 {
+  font-family: 'Righteous', cursive;
+}
 
+#FAQ .altColor {
+  color: #FF11A7 !important;
+  text-shadow: 2px 2px #47ffcb;
+}
+
+#FAQ {
+  color: #47ffcb !important;
+  text-shadow: 2px 2px #FF11A7;
+}
+
+
+  @media only screen and (min-width: 1025px) {
+        #FAQ {
+            margin-left: 25%;
+        }
+    }
 
 #signupBorder {
   border-top: .5em solid #68b5ff;
