@@ -26,6 +26,10 @@ color: #68b5ff !important;
 text-shadow: 2px 2px #000;
 }
 
+#Schedule h3 {
+  font-family: 'Righteous', cursive;
+}
+
 #FAQ div {
   font-family: 'Righteous', cursive;
 }
@@ -95,18 +99,6 @@ text-shadow: 2px 2px #000;
   margin-left: 10px !important;
   margin-right: 10px !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @-webkit-keyframes signupButtonAnim {
     0%{background-position:23% 0%}
