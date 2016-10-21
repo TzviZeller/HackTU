@@ -39,12 +39,13 @@ text-shadow: 2px 2px #000;
 
 #FAQ .altColor {
   color: #FF11A7 !important;
-  text-shadow: 2px 2px #47ffcb;
+}
+#FAQ p {
+  color: #000 !important;
 }
 
 #FAQ {
   color: #47ffcb !important;
-  text-shadow: 2px 2px #FF11A7;
 }
 
 #about p {
