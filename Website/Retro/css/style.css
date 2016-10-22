@@ -20,10 +20,11 @@
   -webkit-animation: AnimationName 21s ease infinite;
   -moz-animation: AnimationName 21s ease infinite;
   animation: AnimationName 21s ease infinite;
-font-family: 'Bungee Inline', cursive;
-font-size: 3rem;
-color: #68b5ff !important;
-text-shadow: 2px 2px #000;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 3rem;
+  color: #68b5ff !important;
+  text-shadow: 2px 2px 5px #000;
+  width: 100%;
 }
 
 #Schedule h3 {
@@ -58,16 +59,16 @@ text-shadow: 2px 2px #000;
 }
 
 
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (max-width: 1025px) {
         #FAQ {
             margin-left: 25%;
         }
     }
 
 #signupBorder {
-  border-top: .5em solid #68b5ff;
-  border-bottom:.5em solid #68b5ff;
+  border: .5em solid #68b5ff;
   border-radius: 4em;
+  overflow: hidden;
 }
 
 @font-face {
