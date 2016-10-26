@@ -106,6 +106,62 @@
   margin-right: 10px !important;
 }
 
+.flex-sponser{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-sponser{
+  position: relative;
+  flex: 1 0 auto;
+  margin: 10px;
+  min-width: 180px;
+  max-width: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.item-sponser img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  width: 75%;
+}
+
+.item-sponser .info{
+  background: linear-gradient(0deg, rgba(71, 255, 203, .2), rgba(0, 0, 0, 0));
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Righteous', cursive;
+  transform: translate(0%, 100%);
+  transition: transform 375ms ease-in-out;
+  color: #FF11A7 !important;
+text-shadow: 2px 2px #47ffcb;
+}
+
+.sponer-mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.item-sponser:hover .info{
+  transform: translate(0%, 0%);
+}
+
 @-webkit-keyframes signupButtonAnim {
     0%{background-position:23% 0%}
     50%{background-position:78% 100%}
